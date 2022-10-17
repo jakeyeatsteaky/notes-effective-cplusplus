@@ -36,5 +36,7 @@ Effective C++ - Scott Meyers
 int main()
 {
     // Item 3 is regarding the usage of const with iterators, and in member functions.
-    Item3 item3;    
+    bool ex_3A = true;
+    bool ex_3B = true;
+    item3::run(ex_3A, ex_3B);
 }
