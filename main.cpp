@@ -33,13 +33,8 @@ Effective C++ - Scott Meyers
     BLUF: The preproccessor is useful for things like #include, #ifdef/#ifndef, however with the availability of consts, inlines and enums, its usage can be reduced.  Bascially just avoid using #define
 }*/
 
-/*Item 3:
-{
-    Use const whenever possible to allow the compiler to assert things for you automatically.  For pointers specifically you can specify whether the data being pointed to is const, or the pointer itself must remain const
-}*/
-
-
 int main()
 {
-    Item3 item3;    // example code run from ctor of struct.
+    // Item 3 is regarding the usage of const with iterators, and in member functions.
+    Item3 item3;    
 }
