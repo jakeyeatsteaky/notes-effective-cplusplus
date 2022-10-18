@@ -6,7 +6,9 @@
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
+                "-Iinclude",
                 "-g",
+                "src/\\*.cpp",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"

@@ -43,7 +43,9 @@ namespace item3
     void print(const TextBlock& ctb);
 
 
-
+/*
+    BLUF: Use const whenever possible.  
+*/
 
     void run(bool A, bool B);
 

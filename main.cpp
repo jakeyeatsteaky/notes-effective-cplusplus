@@ -1,4 +1,5 @@
 #include "item3.hpp"
+#include "item4.hpp"
 
 /*--------------------------------------------------------------------------
 
@@ -38,5 +39,10 @@ int main()
     // Item 3 is regarding the usage of const with iterators, and in member functions.
     bool ex_3A = true;
     bool ex_3B = true;
-    item3::run(ex_3A, ex_3B);
+    //item3::run(ex_3A, ex_3B);
+
+    item4::PhoneBook* pb = new item4::PhoneBook("jake", "1234");
+    item4::BetterPhoneBook* bpb = new item4::BetterPhoneBook("Betterjake", "Better1234");
+
+
 }
